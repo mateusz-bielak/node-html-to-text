@@ -9,5 +9,6 @@ module.exports = {
     library: 'htmlToText',
     libraryTarget: 'var',
   },
+  target: 'node',
   mode: 'production',
 };
