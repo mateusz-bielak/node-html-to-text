@@ -35,7 +35,8 @@
     "example": "node ./example/html-to-text.js",
     "lint": "eslint .",
     "prepublishOnly": "npm run lint && npm test",
-    "test": "mocha"
+    "test": "mocha",
+    "wp": "webpack ./index.js -o ./dist/main.js"
   },
   "dependencies": {
     "@selderee/plugin-htmlparser2": "^0.6.0",
@@ -53,6 +54,8 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsdoc": "^33.3.0",
     "eslint-plugin-mocha": "^8.2.0",
-    "mocha": "^8.4.0"
+    "mocha": "^8.4.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   }
 }
